@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main(void)
 {
-int a,b;
-	a = 3;
-	b = 5;
-	int tong, hieu, tich;
-	double thuong;
+  // khai bao gia tri bien a
+	int a = 3;
+  // khai bao gia tri bien b
+	int b = 5;
+	int tong, hieu, tich ;
+	double thuong ;
 	tong = a + b;
 	hieu = a - b;
 	tich = a * b;
