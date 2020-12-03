@@ -9,8 +9,10 @@ int main(void) {
   // hien thi nhap T =
   printf (" nhap Toan = ");
   scanf ("%d", &T);
+  double DTB;
+  DTB = (V + T)/2;
   // Tinh diem trung binh Van, Toan va hien ra man hinh V + T/2 = DTB
-  printf ("Van + Toan/2 = DBT");
+  printf ("(Van + Toan)/2 = DBT");
   printf ("\n");
   printf ("Van \t Toan \t DTB");
   return 0;
