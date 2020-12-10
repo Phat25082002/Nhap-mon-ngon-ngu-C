@@ -3,10 +3,10 @@
 int main(void) {
   // khai bao bien a,b;
   int a,b;
-  // hien thi ra man hinh a
+  // hien thi ra man hinh a =
   printf (" nhap a = ");
   scanf ("%d", &a);
-  // hien thi ra man hinh b
+  // hien thi ra man hinh b =
   printf (" nhap b = ");
   scanf ("%d", &b);
   if (a>b){
