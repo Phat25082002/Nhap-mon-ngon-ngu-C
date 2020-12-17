@@ -15,9 +15,9 @@ int main(){
 if (soluong >= 5 & dongia >=500 ){
     thanhtien= (soluong*dongia)*0.5;
  // hien thi ra man hinh thanhtien
-	printf ("%d",thanhtien );
+	printf ("so tien can thanh toan la %d",thanhtien );
 }else {
-	printf (" %d",thanhtien);
+	printf ("so tien can thanh toan la %d",thanhtien);
 	}
   getchar();
   return 0;
