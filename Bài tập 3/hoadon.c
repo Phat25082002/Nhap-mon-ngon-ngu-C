@@ -11,11 +11,11 @@ int main(void) {
   scanf ("%d" ,&soluong);
   thanhtien = dongia * soluong;
   // soluong >= 5 thi don gia se giam 50%
-  if (soluong >= 5 & dongia >=5){
-  // hien thi ra so tien can phai thanh toan khi soluong <5
+  if (soluong >=5 & dongia >=5){
+  // hien thi ra so tien can phai thanh toan khi soluong >=5
   printf ("so tien can phai thanh toan la %d", thanhtien*50/100);
   } else {
-  // hien ra so tien can phai thanh toan khi don soluong >= 5 
+  // hien ra so tien can phai thanh toan khi don soluong <5
   printf (" so tien can phai thanh toan la %d", thanhtien);}
   return 0;
   getchar ();
