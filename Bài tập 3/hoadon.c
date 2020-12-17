@@ -12,7 +12,7 @@ int main(){
  // cong thuc
 	thanhtien = soluong*dongia;
  // dieu kien so luong >=5 va dongia >=500
-if (soluong >= 5 & dongia >=500 ){
+if (soluong >= 5 && dongia >=500 ){
     thanhtien= (soluong*dongia)*0.5;
  // hien thi ra man hinh thanhtien
 	printf ("so tien can thanh toan la %d",thanhtien );
