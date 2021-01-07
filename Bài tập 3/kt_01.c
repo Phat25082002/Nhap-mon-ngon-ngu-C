@@ -2,7 +2,7 @@ Cách 1: Không dùng vòng lặp for.
 #include <stdio.h>
 
 int main (void){
-	// gan cac bien a,b,c
+    // gan cac bien a,b,c
   int a,b,c;
    // In ra man hinh bang cuu chuong
   printf ("Bang Cuu chuong\n");
