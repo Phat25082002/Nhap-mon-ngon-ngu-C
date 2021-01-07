@@ -1,4 +1,3 @@
-Cách 1: Không dùng vòng lặp for.
 #include <stdio.h>
 
 int main (void){
