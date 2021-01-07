@@ -39,28 +39,34 @@ Bảng 2:
 #include <stdio.h>
 
 int main (void){
-	int a,b;
-	printf ("Bang cuu chuong:");
-	for (a=2; a<=2; a++){
+	int a=2,b;
 		printf ("\nBang nhan %d:",a);
 		for (b=1; b<=3; b++){
-		printf ("\n%d x %d = %d",a,b,a*b);
-        }
-    }
-return 0;
----------------
-Bảng 3,4:
-#include <stdio.h>
-
-int main (void){
-	int a,b;
-	printf ("Bang cuu chuong:");
-	for (a=3; a<=4; a++){
-		printf ("\nBang nhan %d:",a);
-		for (b=1; b<=3; b++){
-		printf ("\n%d x %d = %d",a,b,a*b);
-        }
+		  printf ("\n%d x %d = %d",a,b,a*b);
     }
 return 0;
 }
-	
+---------------
+Bảng 3:
+#include <stdio.h>
+
+int main (void){
+	int a=3,b;
+		printf ("\nBang nhan %d:",a);
+		for (b=1; b<=3; b++){
+		  printf ("\n%d x %d = %d",a,b,a*b);
+    }
+return 0;
+}
+--------------
+Bangr4:
+#include <stdio.h>
+
+int main (void){
+	int a=4,b;
+		printf ("\nBang nhan %d:",a);
+		for (b=1; b<=3; b++){
+		  printf ("\n%d x %d = %d",a,b,a*b);
+    }
+return 0;
+}
