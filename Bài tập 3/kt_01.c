@@ -30,22 +30,6 @@ int main (void){
   printf ("\n%d x %d = %d",a,b,c);
   a=4; b=3; c=12;
   printf ("\n%d x %d = %d",a,b,c);
-  
-  getchar ();
+ 
   return 0;
-}
--------------------------------------------
-Cách 2: Dùng vòng lặp for.
-#include <stdio.h>
-
-int main (void){
-	int a,b;
-	printf ("Bang cuu chuong:");
-	for (a=2; a<=4; a++){
-		printf ("\nBang nhan %d:",a);
-		for (b=1; b<=3; b++){
-		printf ("\n%d x %d = %d",a,b,a*b);
-        }
-    }
-return 0;
 }
