@@ -59,7 +59,7 @@ int main (void){
 return 0;
 }
 --------------
-Bangr4:
+Bảng 4:
 #include <stdio.h>
 
 int main (void){
