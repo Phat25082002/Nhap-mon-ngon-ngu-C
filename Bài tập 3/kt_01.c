@@ -1,3 +1,4 @@
+Cách 1: Không dùng vòng lặp for.
 #include <stdio.h>
 
 int main (void){
@@ -31,4 +32,35 @@ int main (void){
   printf ("\n%d x %d = %d",a,b,c);
  
   return 0;
+}
+-----------------
+Cách 2:Dùng vòng lặp for.
+Bảng 2:
+#include <stdio.h>
+
+int main (void){
+	int a,b;
+	printf ("Bang cuu chuong:");
+	for (a=2; a<=2; a++){
+		printf ("\nBang nhan %d:",a);
+		for (b=1; b<=3; b++){
+		printf ("\n%d x %d = %d",a,b,a*b);
+        }
+    }
+return 0;
+---------------
+Bảng 3,4:
+#include <stdio.h>
+
+int main (void){
+	int a,b;
+	printf ("Bang cuu chuong:");
+	for (a=3; a<=4; a++){
+		printf ("\nBang nhan %d:",a);
+		for (b=1; b<=3; b++){
+		printf ("\n%d x %d = %d",a,b,a*b);
+        }
+    }
+return 0;
+}
 }
