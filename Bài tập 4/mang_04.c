@@ -7,7 +7,7 @@ int main(void) {
   printf ("Nhap n:"); // nhap n
   scanf ("%d",&n);
   for ( i=1; i<=n; i++){
-    printf ("Phan tu o mang %d:",i);
+    printf ("Phan tu o mang a[%d]:",i); // hien thi ra man hinh cac mang
     scanf ("%d",&a[i]);
 }
 for (i=1; i<=n; i++){
