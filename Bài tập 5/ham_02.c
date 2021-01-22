@@ -1,6 +1,6 @@
 //Khoi khai bao
 #include<stdio.h>
-int kiem_tra_am_duong(int a);
+int kiem_tra_am_duong(int n);
 //khoi ham main
 int main(){
 int n;
@@ -14,7 +14,7 @@ else
   printf("n = 0"); // hien thi ra man hinh n = 0
 return 0;
 }
-int kiem_tra_am_duong (int a){ // khoi dinh nghia ham
+int kiem_tra_am_duong (int n){
 int kiem_tra_am_duong;
-  return a;
+  return n;
 }
